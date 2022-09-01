@@ -1,0 +1,42 @@
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-26T14:52:40.153Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-26T14:52:54.309Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-26T15:04:13.531Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-27T00:43:11.651Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-28T07:58:56.665Z"}
+error: 
+    status - 500 
+    message - ValidationError: "LastName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-29T02:39:18.943Z"}

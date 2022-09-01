@@ -1,0 +1,10 @@
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-27T00:43:11.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-27T00:59:31.678Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-27T00:59:34.199Z"}
+info: Connected to the database. {"timestamp":"2022-08-27T00:59:37.657Z"}

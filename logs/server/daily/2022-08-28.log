@@ -1,0 +1,15 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-28T07:55:27.554Z"}
+info: Connected to the database. {"timestamp":"2022-08-28T07:55:33.047Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-28T07:58:56.665Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-28T08:05:41.510Z"}
+info: Connected to the database. {"timestamp":"2022-08-28T08:06:09.641Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-28T08:07:52.562Z"}
+info: Connected to the database. {"timestamp":"2022-08-28T08:08:01.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-28T08:13:55.522Z"}
+info: Connected to the database. {"timestamp":"2022-08-28T08:14:05.080Z"}

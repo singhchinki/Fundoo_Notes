@@ -1,0 +1,4 @@
+info: ::1 - - [01/Sep/2022:02:33:53 +0000] "POST /api/v1/users/login HTTP/1.1" 400 68 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Sep/2022:02:39:57 +0000] "POST /api/v1/users/login HTTP/1.1" 202 260 "-" "PostmanRuntime/7.29.2"
+
