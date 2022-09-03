@@ -40,3 +40,324 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-08-29T02:39:18.943Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-09-02T04:14:04.167Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 67
+    at JSON.parse (<anonymous>)
+    at parse (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T04:15:07.705Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 67
+    at JSON.parse (<anonymous>)
+    at parse (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-02T04:16:07.054Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 67
+    at JSON.parse (<anonymous>)
+    at parse (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T08:59:11.843Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 67
+    at JSON.parse (<anonymous>)
+    at parse (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T08:59:30.285Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-02T08:59:59.513Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-09-02T09:01:18.279Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-02T09:25:58.715Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T09:27:07.940Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes/note_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T09:27:52.185Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-02T09:29:25.263Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T10:38:39.662Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T10:42:02.344Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T10:42:23.653Z"}
+error: Could not connect to the database. getaddrinfo ENOTFOUND demo-shard-00-02.aoloa.mongodb.net {"reason":{"commonWireVersion":13,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":"atlas-kcf731-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: getaddrinfo ENOTFOUND demo-shard-00-02.aoloa.mongodb.net\n    at NativeConnection.Connection.openUri (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\config\\/database.js:12:20)\n    at tryCatch (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-09-02T11:30:50.109Z"}
+error: 
+    status - 500 
+    message - ReferenceError: NoteService is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:30:28)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:30:25)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T11:35:50.919Z"}
+error: 
+    status - 500 
+    message - ReferenceError: noteService is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:30:28)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:30:25)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-02T11:38:39.356Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/note_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-02T11:44:13.187Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6311ec45556911f1082ec9fb 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-02T11:49:49.766Z"}
