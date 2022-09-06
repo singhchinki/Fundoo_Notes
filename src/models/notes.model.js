@@ -16,8 +16,8 @@ const noteSchema = new Schema(
     IsArchived: {
         type: Boolean
     },
-    userId: {
-        type: String
+    IsTrashed: {
+      type: Boolean
     }
   },
   {
