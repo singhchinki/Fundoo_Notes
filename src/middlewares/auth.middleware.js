@@ -10,7 +10,6 @@ import jwt from 'jsonwebtoken';
  * @param {Function} next
  */
 export const userAuth = async (req, res, next) => {
-  try {
     let bearerToken = req.header('Authorization');
     if (!bearerToken)
       throw {
@@ -18,12 +17,17 @@ export const userAuth = async (req, res, next) => {
         message: 'Authorization token is required'
       };
     bearerToken = bearerToken.split(' ')[1];
-
-    const { user } = await jwt.verify(bearerToken, process.env.SECRET_kEY );
-    res.locals.user = user;
-    res.locals.token = bearerToken;
-    next();
-  } catch (error) {
-    next(error);
-  }
-};
+    jwt.verify(bearerToken, process.env.SECRET_kEY,function(err,decoded) {
+      if(err){
+       res.status(HttpStatus.BAD_REQUEST).json({
+          code: HttpStatus.BAD_REQUEST,
+          message: 'Authorization token is Incorrect'
+        });
+      }else{
+        console.log("decoded value-------------",decoded);
+        next();
+      }
+    });
+  };
+  
+    
