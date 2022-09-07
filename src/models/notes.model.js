@@ -1,3 +1,4 @@
+import { string } from '@hapi/joi';
 import { Schema, model } from 'mongoose';
 
 const noteSchema = new Schema(
@@ -18,6 +19,11 @@ const noteSchema = new Schema(
     },
     IsTrashed: {
       type: Boolean
+    }
+  },
+  {
+    UserId:{
+      type: String
     }
   },
   {

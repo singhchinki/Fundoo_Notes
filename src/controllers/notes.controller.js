@@ -89,11 +89,51 @@ export const updateNotes = async (req, res, next) => {
 */
 export const deleteNotes = async (req, res, next) => {
     try {
-        const deletedData = await notesService.deleteNotes(req.params.note_id);
+        const data = await notesService.deleteNotes(req.params.note_id);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
-            data: [],
+            data:data,
             message: 'Deleted Note Successfully'
+        });
+    }
+    catch (error) {
+        next(error);
+    }
+};
+
+/**
+* Controller to archive notes
+* @param  {object} req - request object
+* @param {object} res - response object
+* @param {Function} next
+*/
+export const archiveNotes = async (req, res, next) => {
+    try {
+        const data = await notesService.archiveNotes(req.params.noteid);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data:data,
+            message: 'Archived Successfully'
+        });
+    }
+    catch (error) {
+        next(error);
+    }
+};
+
+/**
+* Controller to trash notes
+* @param  {object} req - request object
+* @param {object} res - response object
+* @param {Function} next
+*/
+export const trashNotes = async (req, res, next) => {
+    try {
+        const data = await notesService.trashNotes(req.params.noteid);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'Trash Note Successfully'
         });
     }
     catch (error) {
