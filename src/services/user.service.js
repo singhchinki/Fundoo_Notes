@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import * as utilsService from '../utils/emailSender';
 
 //create new user
 export const newUser = async (body) => {
@@ -38,6 +39,20 @@ export const checkLogin = async (userdetails) => {
   }
 }else {
     throw new Error("Invalid Email_Id")
+  }
+
+};
+//Checks for forget password !
+export const forgetPassword = async (userdetails) => {
+  const data = await User.findOne({ Email_Id: userdetails.Email_Id })
+  if (data != null) {
+   
+    var token = jwt.sign({ Email_Id:data.Email_Id,id:data._id},process.env.NEW_SECRET_KEY);
+    var details = await utilsService.sendMail(data.Email_Id,token);
+    return details;
+  }
+else {
+    throw new Error("User doesn't exsist--!")
   }
 
 };

@@ -15,15 +15,16 @@ const noteSchema = new Schema(
       type: String
     },
     IsArchived: {
-        type: Boolean
+        type: Boolean,
+        default: false
     },
     IsTrashed: {
-      type: Boolean
-    }
-  },
-  {
-    UserId:{
+      type: Boolean,
+      default: false
+    },
+    UserId: { 
       type: String
+      
     }
   },
   {

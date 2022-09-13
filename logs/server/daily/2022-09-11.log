@@ -1,0 +1,81 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T06:17:53.273Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T06:18:07.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:07:49.302Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T07:07:59.293Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:46:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-11T07:11:33.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:12:18.395Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T07:12:23.975Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:61:31)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:58:24)
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:132:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/istrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-11T07:12:31.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:13:05.007Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:61:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:58:24)
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:132:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/istrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-11T07:13:07.371Z"}
+error: Could not connect to the database. connection 1 to 54.163.77.134:27017 closed {"name":"MongoNetworkError","stack":"MongoNetworkError: connection 1 to 54.163.77.134:27017 closed\n    at Connection.handleIssue (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongodb\\lib\\cmap\\connection.js:131:15)\n    at TLSSocket.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongodb\\lib\\cmap\\connection.js:64:35)\n    at TLSSocket.emit (node:events:527:28)\n    at TLSSocket.emit (node:domain:475:12)\n    at node:net:709:12\n    at TCP.done (node:_tls_wrap:582:7)","timestamp":"2022-09-11T07:13:13.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:13:49.209Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T07:13:59.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:14:37.781Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T07:14:48.567Z"}
