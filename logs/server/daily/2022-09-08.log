@@ -1,0 +1,276 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T01:20:07.712Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T01:20:16.810Z"}
+error: 
+    status - 500 
+    message - TypeError: notesService.getNote is not a function
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:50:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:31:9
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T01:21:18.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T01:22:51.149Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T01:23:00.864Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T01:29:00.058Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T01:29:09.077Z"}
+error: 
+    status - 500 
+    message - TypeError: notesService.getNote is not a function
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:50:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:31:9
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T01:30:19.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:40:41.478Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:40:50.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:41:23.933Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:41:32.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:01:17.725Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:01:27.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:02:45.769Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:02:54.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:03:19.532Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:03:23.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:04:12.331Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:04:21.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:04:42.405Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:04:51.136Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userdetails is not defined
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:20:55)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:19:22)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/getAnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T03:05:08.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:07:39.912Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:07:49.318Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:20:67)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:19:22)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/getAnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T03:07:55.417Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:09:22.548Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:09:33.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:11:14.097Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:11:23.435Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserId')
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:20:61)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:19:22)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/getAnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T03:11:29.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:12:33.152Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:12:42.284Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:16:18.354Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:16:28.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:05:21.452Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:05:30.258Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userdetails is not defined
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:21:54)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:20:22)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/getAnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:05:56.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:07:29.469Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:07:38.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:09:15.587Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:09:24.281Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:22:34.851Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:22:43.978Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:44:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/63199998d10c8557654e41bf/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:29:57.684Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:44:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/63199998d10c8557654e41bf/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:31:11.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:33:01.865Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:33:11.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:37:04.111Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:37:13.552Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:44:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/63199998d10c8557654e41bf/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:38:17.001Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:38:48.139Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:38:51.655Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:44:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/63199998d10c8557654e41bf/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:40:14.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:40:53.924Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:41:12.857Z"}

@@ -1,0 +1,6 @@
+info: ::1 - - [11/Sep/2022:07:11:33 +0000] "PUT /api/v1/notes/631a877ca4c36567f9b70f07/isarchive HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Sep/2022:07:12:31 +0000] "PUT /api/v1/notes/631a877ca4c36567f9b70f07/istrash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Sep/2022:07:13:07 +0000] "PUT /api/v1/notes/631a877ca4c36567f9b70f07/istrash HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.2"
+

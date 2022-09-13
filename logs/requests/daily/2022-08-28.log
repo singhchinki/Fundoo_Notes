@@ -1,6 +1,0 @@
-info: ::1 - - [28/Aug/2022:07:57:41 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.29.2"
-
-info: ::1 - - [28/Aug/2022:07:57:53 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.2"
-
-info: ::1 - - [28/Aug/2022:07:58:56 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.2"
-

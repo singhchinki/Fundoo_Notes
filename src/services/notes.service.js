@@ -1,3 +1,4 @@
+import { id } from '@hapi/joi/lib/base';
 import jwt from 'jsonwebtoken';
 import Notes from '../models/notes.model';
 
@@ -9,53 +10,56 @@ export const addNote = async (body) => {
 };
 
 //get all notes
-export const getAllNotes = async (body) => {
-    const data = await Notes.find();
+export const getAllNotes = async (userdetails) => {
+    const data = await Notes.find({ UserId: userdetails.UserId });
     return data;
 
 };
 
 //get single note
-export const getANote = async (id) => {
-    const data = await Notes.findById(id);
+export const getANote = async (id, body) => {
+    const data = await Notes.findById({ _id: id, UserId: body.UserId });
     return data;
 };
 //update single note
 export const updateNotes = async (_id, body) => {
     const data = await Notes.findByIdAndUpdate(
         {
-            _id
+            _id: _id, UserId: body.UserId
         },
-        body, { new: true }
+        { Title: body.Title, Description: body.Description },
+        { new: true }
     );
     return data;
 };
 
 //delete single user
-export const deleteNotes = async (id) => {
-    await Notes.findByIdAndDelete(id);
+export const deleteNotes = async (id, body) => {
+    await Notes.findByIdAndDelete({ _id: id, UserId: body.UserId });
     return ' ';
 };
 
 //archive single note
-export const archiveNotes = async (id) => {
+export const archiveNotes = async (id, body) => {
+    console.log("check body -- body", body)
     const data = await Notes.findByIdAndUpdate(
         {
-            _id:id
+            _id: id, UserId: body.UserId
         },
         { IsArchived: true },
-        { new: true }
+        { new: true },
+
     );
     console.log("return data--------------->", data);
     return data;
-    
+
 };
 
 //trash single user
-export const trashNotes = async (id) => {
+export const trashNotes = async (_id, body) => {
     const data = await Notes.findByIdAndUpdate(
         {
-            _id:id
+            _id: _id, UserId: body.UserId
         },
         { IsTrashed: true },
         { new: true }

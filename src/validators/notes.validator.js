@@ -6,6 +6,7 @@ export const NotesValidator = (req, res, next) => {
     Description: Joi.string().min(4).required(),
     Colour:Joi.string().required(),
     IsArchived:Joi.boolean().required(),
+    IsTrashed:Joi.boolean().required()
   });
   const { error, value } = schema.validate(req.body);
   if (error) {

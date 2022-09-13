@@ -828,3 +828,1090 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T0
 info: Connected to the database. {"timestamp":"2022-09-07T02:58:05.359Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T02:58:23.924Z"}
 info: Connected to the database. {"timestamp":"2022-09-07T02:58:29.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T03:14:05.049Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T03:14:13.911Z"}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Wed Sep 07 2022 10:51:01 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1745180},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18512445,"external":22813010,"heapTotal":50094080,"heapUsed":46345072,"rss":85344256},"pid":83068,"uid":null,"version":"v16.15.1"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","timestamp":"2022-09-07T05:21:01.367Z","trace":[]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:33:05.803Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:33:15.261Z"}
+error: 
+    status - 500 
+    message - ValidationError: Notes validation failed: Title: Path `Title` is required.
+    at model.Document.invalidate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2782:32)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2574:17
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-07T05:36:14.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:03:26.969Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:03:31.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:10:55.143Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:11:04.874Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:27:28
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:20:9)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13) {"date":"Wed Sep 07 2022 11:41:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1748213},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18355975,"external":20010412,"heapTotal":49569792,"heapUsed":45061432,"rss":84889600},"pid":86428,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\middlewares\\/auth.middleware.js:27:28\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\jsonwebtoken\\verify.js:223:12\n    at getSecret (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\jsonwebtoken\\verify.js:90:14)\n    at Object.verify (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\jsonwebtoken\\verify.js:94:10)\n    at _callee$ (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\middlewares\\/auth.middleware.js:20:9)\n    at tryCatch (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at userAuth (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\middlewares\\/auth.middleware.js:12:22)\n    at Layer.handle [as handle_request] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\route.js:144:13)","timestamp":"2022-09-07T06:11:33.685Z","trace":[{"column":28,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\middlewares\\/auth.middleware.js","function":null,"line":27,"method":null,"native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\jsonwebtoken\\verify.js","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"getSecret","line":90,"method":null,"native":false},{"column":10,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"Object.verify","line":94,"method":"verify","native":false},{"column":9,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":20,"method":null,"native":false},{"column":17,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":22,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\middlewares\\/auth.middleware.js","function":"userAuth","line":12,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:12:54.686Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:13:04.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:48:34.873Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:48:45.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:49:23.053Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:49:32.978Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:52:01.724Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:52:11.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:26:37.561Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:26:46.925Z"}
+error: 
+    status - 500 
+    message - ValidationError: Notes validation failed: UserId: Path `UserId` is required.
+    at model.Document.invalidate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2782:32)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2574:17
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-07T07:30:50.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:34:34.240Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:34:43.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:37:47.114Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:37:56.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:46:45.751Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:46:55.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:50:15.394Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:50:25.051Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:24:43.030Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:24:51.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:28:24.195Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:28:28.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:31:45.677Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:31:56.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:34:48.760Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:34:59.212Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:35:04.670Z"}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:05:04 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764024},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18407159,"external":31644779,"heapTotal":81027072,"heapUsed":48767464,"rss":115851264},"pid":80772,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:35:04.697Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:05:04 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764024},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18426032,"external":31663692,"heapTotal":81289216,"heapUsed":49362000,"rss":116948992},"pid":80772,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:35:04.714Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:05:04 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764024},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18444881,"external":31682541,"heapTotal":81289216,"heapUsed":49697544,"rss":116989952},"pid":80772,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:35:04.733Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:35:15.087Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:35:19.355Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:37:26.390Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:37:35.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:39:49.149Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:39:58.427Z"}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:09:58 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764317},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19023735,"external":31099344,"heapTotal":78667776,"heapUsed":51935056,"rss":114016256},"pid":84704,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:39:58.450Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:09:58 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764317},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19042608,"external":31118257,"heapTotal":78667776,"heapUsed":52283176,"rss":115130368},"pid":84704,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:39:58.472Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:09:58 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764317},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19061457,"external":31137106,"heapTotal":78667776,"heapUsed":52616536,"rss":115138560},"pid":84704,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:39:58.490Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Wed Sep 07 2022 16:09:59 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764318},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18314243,"external":22187071,"heapTotal":81289216,"heapUsed":44527128,"rss":114671616},"pid":87508,"uid":null,"version":"v16.15.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n    at listenInCluster (node:net:1420:12)\n    at Server.listen (node:net:1508:7)\n    at Function.listen (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-09-07T10:39:59.454Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1372,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1420,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1508,"method":"listen","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:09:58 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764318},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19080306,"external":31155955,"heapTotal":78929920,"heapUsed":53202224,"rss":115150848},"pid":84704,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:39:58.508Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:40:29.899Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:40:35.676Z"}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:10:35 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764355},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18460840,"external":22266674,"heapTotal":82337792,"heapUsed":46403592,"rss":116621312},"pid":87876,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:40:35.699Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:10:35 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764355},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18479713,"external":22285587,"heapTotal":82599936,"heapUsed":47005904,"rss":117702656},"pid":87876,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:40:35.717Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Wed Sep 07 2022 16:10:35 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764355},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18498562,"external":22304436,"heapTotal":82599936,"heapUsed":47348216,"rss":117706752},"pid":87876,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-07T10:40:35.735Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Wed Sep 07 2022 16:10:43 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1764363},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18320083,"external":22557801,"heapTotal":81813504,"heapUsed":44661576,"rss":115269632},"pid":85116,"uid":null,"version":"v16.15.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n    at listenInCluster (node:net:1420:12)\n    at Server.listen (node:net:1508:7)\n    at Function.listen (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-09-07T10:40:43.681Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1372,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1420,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1508,"method":"listen","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T10:46:45.995Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T10:46:55.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:32:59.774Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:33:09.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:51:39.087Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:51:53.094Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee4$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:25:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:24:25)
+    at _callee4$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:72:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T11:52:28.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T11:54:35.949Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T11:54:48.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T12:00:23.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T12:00:26.930Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T12:00:36.552Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:45:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:42:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T12:01:05.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T12:03:27.452Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T12:03:33.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T12:04:34.860Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T12:04:45.290Z"}
+error: 
+    status - 500 
+    message - ReferenceError: id is not defined
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:59:18)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:56:24)
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:132:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/istrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T12:04:56.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T12:05:19.154Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T12:05:28.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T01:20:07.712Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T01:20:16.810Z"}
+error: 
+    status - 500 
+    message - TypeError: notesService.getNote is not a function
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:50:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:31:9
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T01:21:18.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T01:22:51.149Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T01:23:00.864Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T01:29:00.058Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T01:29:09.077Z"}
+error: 
+    status - 500 
+    message - TypeError: notesService.getNote is not a function
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:50:22)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/auth.middleware.js:31:9
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\jsonwebtoken\verify.js:94:10) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T01:30:19.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:40:41.478Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:40:50.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:41:23.933Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:41:32.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:01:17.725Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:01:27.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:02:45.769Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:02:54.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:03:19.532Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:03:23.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:04:12.331Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:04:21.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:04:42.405Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:04:51.136Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userdetails is not defined
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:20:55)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:19:22)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/getAnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T03:05:08.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:07:39.912Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:07:49.318Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:20:67)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:19:22)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/getAnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T03:07:55.417Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:09:22.548Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:09:33.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:11:14.097Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:11:23.435Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserId')
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:20:61)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:19:22)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/getAnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T03:11:29.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:12:33.152Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:12:42.284Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:16:18.354Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:16:28.591Z"}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Thu Sep 08 2022 08:46:28 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1824108},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18426038,"external":22276800,"heapTotal":82075648,"heapUsed":46495616,"rss":116400128},"pid":84732,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-08T03:16:28.648Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Thu Sep 08 2022 08:46:28 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1824108},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18444911,"external":22295713,"heapTotal":82337792,"heapUsed":47100184,"rss":117485568},"pid":84732,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-08T03:16:28.666Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Thu Sep 08 2022 08:46:28 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1824108},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18463760,"external":22314562,"heapTotal":82337792,"heapUsed":47437648,"rss":117497856},"pid":84732,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-08T03:16:28.688Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Thu Sep 08 2022 08:46:28 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1824108},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18482609,"external":22333411,"heapTotal":82599936,"heapUsed":48011784,"rss":117522432},"pid":84732,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-08T03:16:28.708Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:05:21.452Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:05:30.258Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userdetails is not defined
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:21:54)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getANote (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:20:22)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:52:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/6318818090c56efdf42a7b4f/getAnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:05:56.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:07:29.469Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:07:38.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:09:15.587Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:09:24.281Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:22:34.851Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:22:43.978Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:44:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/63199998d10c8557654e41bf/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:29:57.684Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:44:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/63199998d10c8557654e41bf/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:31:11.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:33:01.865Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:33:11.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:37:04.111Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:37:13.552Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:44:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/63199998d10c8557654e41bf/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:38:17.001Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:38:48.139Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:38:51.655Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:44:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/63199998d10c8557654e41bf/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-08T07:40:14.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T07:40:53.924Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T07:41:12.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-09T00:15:35.549Z"}
+info: Connected to the database. {"timestamp":"2022-09-09T00:15:57.610Z"}
+error: 
+    status - 500 
+    message - ValidationError: Notes validation failed: Description: Path `Description` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2782:32)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2574:17
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-09T00:21:37.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-09T09:45:17.502Z"}
+info: Connected to the database. {"timestamp":"2022-09-09T09:45:26.934Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined, UserId: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-09T09:46:10.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-09T09:46:43.755Z"}
+info: Connected to the database. {"timestamp":"2022-09-09T09:47:03.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-09T09:47:49.922Z"}
+info: Connected to the database. {"timestamp":"2022-09-09T09:47:55.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-09T11:13:26.148Z"}
+info: Connected to the database. {"timestamp":"2022-09-09T11:13:31.621Z"}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Fri Sep 09 2022 16:43:31 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1939131},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18417527,"external":22657904,"heapTotal":81551360,"heapUsed":46540912,"rss":116367360},"pid":65800,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-09T11:13:31.659Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Fri Sep 09 2022 16:43:31 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1939131},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18436400,"external":22676817,"heapTotal":81813504,"heapUsed":47143688,"rss":117485568},"pid":65800,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-09T11:13:31.678Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:817:11)
+    at WriteStream.Socket._write (node:net:829:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12) {"date":"Fri Sep 09 2022 16:43:31 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1939131},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18455249,"external":22695666,"heapTotal":81813504,"heapUsed":47487344,"rss":117489664},"pid":65800,"uid":null,"version":"v16.15.1"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:817:11)\n    at WriteStream.Socket._write (node:net:829:8)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:334:10)\n    at Console.log (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)","timestamp":"2022-09-09T11:13:31.696Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":817,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":829,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":334,"method":"write","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-10T06:47:04.742Z"}
+info: Connected to the database. {"timestamp":"2022-09-10T06:47:13.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-10T15:04:10.677Z"}
+info: Connected to the database. {"timestamp":"2022-09-10T15:04:16.377Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:61:31)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:58:24)
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:132:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/istrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-10T15:15:46.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-10T15:18:01.452Z"}
+info: Connected to the database. {"timestamp":"2022-09-10T15:18:10.957Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserId')
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:61:36)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:58:24)
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:132:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/istrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-10T15:18:18.375Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserId')
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:46:35)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-10T15:18:35.847Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-10T15:21:10.044Z"}
+info: Connected to the database. {"timestamp":"2022-09-10T15:21:15.048Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:61:18)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:58:24)
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:132:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/istrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-10T15:21:31.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-10T15:21:59.399Z"}
+info: Connected to the database. {"timestamp":"2022-09-10T15:22:08.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-10T16:16:47.515Z"}
+info: Connected to the database. {"timestamp":"2022-09-10T16:16:57.890Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:46:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-10T16:17:00.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-10T16:20:25.564Z"}
+info: Connected to the database. {"timestamp":"2022-09-10T16:20:35.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T06:17:53.273Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T06:18:07.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:07:49.302Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T07:07:59.293Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:46:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:43:26)
+    at _callee6$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:112:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/isarchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-11T07:11:33.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:12:18.395Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T07:12:23.975Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:61:31)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:58:24)
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:132:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/istrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-11T07:12:31.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:13:05.007Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:61:30)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:58:24)
+    at _callee7$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:132:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/631a877ca4c36567f9b70f07/istrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-11T07:13:07.371Z"}
+error: Could not connect to the database. connection 1 to 54.163.77.134:27017 closed {"name":"MongoNetworkError","stack":"MongoNetworkError: connection 1 to 54.163.77.134:27017 closed\n    at Connection.handleIssue (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongodb\\lib\\cmap\\connection.js:131:15)\n    at TLSSocket.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongodb\\lib\\cmap\\connection.js:64:35)\n    at TLSSocket.emit (node:events:527:28)\n    at TLSSocket.emit (node:domain:475:12)\n    at node:net:709:12\n    at TCP.done (node:_tls_wrap:582:7)","timestamp":"2022-09-11T07:13:13.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:13:49.209Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T07:13:59.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-11T07:14:37.781Z"}
+info: Connected to the database. {"timestamp":"2022-09-11T07:14:48.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T06:35:42.487Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T06:35:51.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T08:50:01.973Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T08:50:05.710Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-12T08:50:53.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T09:19:33.133Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T09:19:36.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T11:11:04.457Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T11:11:12.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T11:18:59.922Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T11:19:08.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T11:22:19.002Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T11:22:22.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T11:25:58.410Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T11:26:07.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T11:34:14.080Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T11:34:22.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T11:38:17.132Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T11:38:26.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T11:38:40.277Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T11:38:48.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T11:55:59.358Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T11:56:08.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T12:03:33.486Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T12:03:42.025Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T12:04:47.331Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T12:04:51.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T12:04:55.900Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T12:05:04.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T12:12:30.506Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T12:12:39.074Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T12:12:54.440Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T12:13:02.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T12:14:20.577Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T12:14:24.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T12:15:48.566Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T12:15:58.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T12:19:22.758Z"}
+info: Connected to the database. {"timestamp":"2022-09-12T12:19:31.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-12T12:19:46.666Z"}
