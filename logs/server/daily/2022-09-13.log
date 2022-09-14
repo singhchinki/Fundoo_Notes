@@ -1,0 +1,34 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T03:54:32.113Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T03:54:40.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T04:11:35.577Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T04:11:44.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:00:36.708Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:00:45.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:51:41.464Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:51:50.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T05:56:56.226Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T05:57:04.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T06:12:44.232Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T06:12:54.870Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 47
+    at JSON.parse (<anonymous>)
+    at parse (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-13T06:34:56.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T06:38:53.330Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T06:39:02.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-13T06:40:38.558Z"}
+info: Connected to the database. {"timestamp":"2022-09-13T06:40:47.695Z"}
