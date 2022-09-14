@@ -1,0 +1,34 @@
+info: ::1 - - [13/Sep/2022:04:03:32 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:04:10:54 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:26:29 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:32:50 +0000] "POST /api/v1/users HTTP/1.1" 400 96 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:33:06 +0000] "POST /api/v1/users HTTP/1.1" 201 323 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:34:03 +0000] "POST /api/v1/users/login HTTP/1.1" 202 252 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:35:05 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:35:18 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:35:29 +0000] "POST /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGaXJzdE5hbWUiOiJraXJ0aSIsIkxhc3ROYW1lIjoic2hhcm1hIiwiRW1haWxfSWQiOiJraXJ0aTEyQGdtYWlsLmNvbSIsImlhdCI6MTY2MzA1MDg0M30.SrXRD-dGjUmmhP5KzbdNFRGsQYgzAiThyeKqC8kooHQ HTTP/1.1" 400 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:37:14 +0000] "POST /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGaXJzdE5hbWUiOiJraXJ0aSIsIkxhc3ROYW1lIjoic2hhcm1hIiwiRW1haWxfSWQiOiJraXJ0aTEyQGdtYWlsLmNvbSIsImlhdCI6MTY2MzA1MDg0M30.SrXRD-dGjUmmhP5KzbdNFRGsQYgzAiThyeKqC8kooHQ HTTP/1.1" 200 49 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:39:14 +0000] "PUT /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGaXJzdE5hbWUiOiJraXJ0aSIsIkxhc3ROYW1lIjoic2hhcm1hIiwiRW1haWxfSWQiOiJraXJ0aTEyQGdtYWlsLmNvbSIsImlhdCI6MTY2MzA1MDg0M30.SrXRD-dGjUmmhP5KzbdNFRGsQYgzAiThyeKqC8kooHQ HTTP/1.1" 200 49 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:40:48 +0000] "PUT /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGaXJzdE5hbWUiOiJraXJ0aSIsIkxhc3ROYW1lIjoic2hhcm1hIiwiRW1haWxfSWQiOiJraXJ0aTEyQGdtYWlsLmNvbSIsImlhdCI6MTY2MzA1MDg0M30.SrXRD-dGjUmmhP5KzbdNFRGsQYgzAiThyeKqC8kooHQ HTTP/1.1" 200 69 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:06:59:12 +0000] "POST /api/v1/users/login HTTP/1.1" 202 252 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:14:32:52 +0000] "POST /api/v1/notes HTTP/1.1" 201 309 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:14:34:08 +0000] "POST /api/v1/notes/63209491e63a7e49c0746b44/isarchive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:14:34:54 +0000] "PUT /api/v1/notes/63209491e63a7e49c0746b44/isarchive HTTP/1.1" 200 303 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Sep/2022:14:35:12 +0000] "PUT /api/v1/notes/63209491e63a7e49c0746b44/istrash HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.2"
+

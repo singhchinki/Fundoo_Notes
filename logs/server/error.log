@@ -1425,3 +1425,21 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-09-12T08:50:53.198Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 47
+    at JSON.parse (<anonymous>)
+    at parse (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-13T06:34:56.714Z"}

@@ -29,7 +29,7 @@ export async function sendMail(token,email) {
             to: email,
             subject: "Hello from gmail using API",
             Text: 'Hello from gmail API',
-            html: '<h1>Hello from gmail </h1>'
+            html: `<h1>Hello,<br><br>Click on given link to reset your password!</h1><br><h1>Link:><a href="http://localhost:${process.end.APP_PORT}/${token}">click here</a></h1>`
         };
         const result = await transport.sendMail(mailOption)
         //return result

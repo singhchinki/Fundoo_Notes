@@ -54,5 +54,18 @@ export const forgetPassword = async (userdetails) => {
 else {
     throw new Error("User doesn't exsist--!")
   }
+};
 
+//To reset password
+export const resetPassword = async (body) => {
+  const saltRounds = 10;
+  const hashedPassword = await bcrypt.hash(body.Password,saltRounds);
+  const data = await User.findOneAndUpdate({Email_Id:body.Email_Id},
+    {
+      Password:hashedPassword
+    },
+    {
+      new:true
+    });
+  return data;
 };
