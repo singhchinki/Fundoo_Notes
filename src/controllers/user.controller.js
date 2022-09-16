@@ -13,7 +13,7 @@ export const newUser = async (req, res, next) => {
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
-      message: 'User created successfully'
+      message: 'New User created successfully'
     });
   } catch (error) {
     //next(error);
@@ -56,7 +56,7 @@ export const forgetPassword = async(req, res, next) => {
   try {
     console.log("user credential controller=====>" ,req.body)
     const data = await UserService.forgetPassword(req.body);
-    //console.log("login Response in controller====>" ,data)
+    console.log("login Response in controller====>" ,data)
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
      // data: data,
