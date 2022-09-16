@@ -48,7 +48,7 @@ export const resetAuth = async (req, res, next) => {
       code: HttpStatus.BAD_REQUEST,
       message: 'Authorization token is required'
     };
-  await jwt.verify(bearerToken, process.env.SECRET_kEY,function(err,data)
+  await jwt.verify(bearerToken, process.env.NEW_SECRET_KEY,function(err,data)
    {
     if(err){
      res.status(HttpStatus.UNAUTHORIZED).json({

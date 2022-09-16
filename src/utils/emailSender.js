@@ -9,7 +9,7 @@ const REFRESH_TOKEN ='1//04kqZjbY5jSXqCgYIARAAGAQSNwF-L9Irh3nuSIre5a_4ETMUS_mpMr
 const oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN})
 
-export async function sendMail(token,email) {
+export async function sendMail(email,token) {
     try {
         const accessToken = await oAuth2Client.getAccessToken()
         const transport = nodemailer.createTransport({
@@ -29,7 +29,7 @@ export async function sendMail(token,email) {
             to: email,
             subject: "Hello from gmail using API",
             Text: 'Hello from gmail API',
-            html: `<h1>Hello,<br><br>Click on given link to reset your password!</h1><br><h1>Link:><a href="http://localhost:${process.end.APP_PORT}/${token}">click here</a></h1>`
+            html: `<h1>Hello,<br><br>Click on given link to reset your password!</h1><br><h1>Link:><a href="http://localhost:3000/${token}">click here</a></h1>`
         };
         const result = await transport.sendMail(mailOption)
         //return result

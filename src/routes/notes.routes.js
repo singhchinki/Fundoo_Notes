@@ -15,7 +15,7 @@ router.get('',userAuth,notesController.getAllNotes);
  router.get('/:noteid/getAnote',userAuth,notesController.getANote);
 
 //To update details of Notes
-router.put('/:noteid',userAuth,notesController.updateNotes);
+router.put('/:noteid/update',userAuth,notesController.updateNotes);
 
 //To delete a note
 router.delete('/:noteid/delete',userAuth,notesController.deleteNotes);

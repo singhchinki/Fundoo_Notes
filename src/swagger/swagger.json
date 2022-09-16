@@ -1,0 +1,250 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "V1",
+        "title": " Fundoo Notes ",
+        "description": " fundoo Notes CLI App API"
+    },
+    "host": "localhost:3000",
+    "basePath": "/api/v1/",
+    "tags": [
+        {
+            "name": "Fundoo Notes",
+            "description": "Creating user"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": "New user registration",
+                "parameters": [
+                    {
+                        "name": "Create User",
+                        "in": "body",
+                        "description": "User",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New User created successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": " Login sucessfully ",
+                "parameters": [
+                    {
+                        "name": "User Login",
+                        "in": "body",
+                        "description": "login Detals",
+                        "schema": {
+                            "$ref": "#/definitions/login"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/users/forgetPassword": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": "Forgot Password",
+                "parameters": [
+                    {
+                        "name": "Forgot Password",
+                        "in": "body",
+                        "description": "Email Id for Password reset",
+                        "schema": {
+                            "$ref": "#/definitions/ForgotPassword"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": [
+                    {
+                        "201": {
+                            "description": "User Fetched",
+                            "content": "application/json"
+                        },
+                        "400": {
+                            "description": "Invalid User Id"
+                        },
+                        "500": {
+                            "description": "Internal Server Error"
+                        }
+                    }
+                ]
+            }
+        },
+        "/users/resetpassword/{token}": {
+            "put": {
+                "tags": [
+                    "users"
+                ],
+                "description": "Reset Password",
+                "parameters": [
+                    {
+                        "name": "token",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "New password",
+                        "in": "body",
+                        "description": "new password",
+                        "required": true,
+                        "type": "string",
+                        "schema": {
+                            "$ref": "#/definitions/ResetPassword"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": [
+                    {
+                        "201": {
+                            "description": "Reset Password",
+                            "content": "application/json"
+                        },
+                        "400": {
+                            "description": "Password lenth must be 8 charcater"
+                        },
+                        "500": {
+                            "description": "Internal Server Error"
+                        }
+                    }
+                ],
+                "security": [
+                    {
+                        "jwt": []
+                    }
+                ]
+            }
+        }
+    },
+    "securityDefinitions": {
+        "JWT": {
+            "type": "apiKey",
+            "name": "token",
+            "in": "path"
+        }
+    },
+    "definitions": {
+        "User": {
+            "type": "object",
+            "properties": {
+                "FirstName": {
+                    "type": "string"
+                },
+                "LastName": {
+                    "type": "string"
+                },
+                "Email_Id": {
+                    "type": "string"
+                },
+                "Password": {
+                    "type": "string"
+                }
+            }
+        },
+        "login": {
+            "type": "object",
+            "properties": {
+                "Email_Id": {
+                    "type": "string"
+                },
+                "Password": {
+                    "type": "string"
+                }
+            }
+        },
+        "ForgotPassword": {
+            "type": "object",
+            "properties": {
+                "Email_Id": {
+                    "type": "string"
+                }
+            }
+        },
+        "ResetPassword": {
+            "type": "object",
+            "properties": {
+                "Password": {
+                    "type": "string"
+                }
+            }
+        },
+        "newNote" : {
+            "type" : "object",
+            "properties":{
+                "Title":{
+                    "type":"string"
+                },
+                "Description":{
+                    "type":"string"
+                },
+                "Colour":{
+                    "type":"string"
+                },
+                "IsArchived":{
+                    "type":"boolean"
+                },
+                "IsTrashed":{
+                    "type":"boolean"
+                },
+                "UserId":{
+                    "type":"string"
+                }
+            }
+        }
+    }
+    
+}
