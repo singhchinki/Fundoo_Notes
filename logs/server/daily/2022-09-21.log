@@ -1,0 +1,24 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T02:35:35.050Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T02:35:35.112Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserId: 'singhchinkikumari@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-21T02:35:35.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T02:37:21.991Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T02:37:22.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T02:37:51.876Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T02:37:51.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T02:38:17.716Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T02:38:17.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T02:40:26.039Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T02:40:26.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T02:41:17.292Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T02:41:17.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T02:43:21.448Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T02:43:21.479Z"}

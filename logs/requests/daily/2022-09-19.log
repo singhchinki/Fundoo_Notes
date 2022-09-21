@@ -1,0 +1,32 @@
+info: ::1 - - [19/Sep/2022:02:29:20 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Sep/2022:02:29:20 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Sep/2022:02:29:20 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:02:29:20 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:02:29:20 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:02:29:21 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:11:08:33 +0000] "POST /api/v1/users/abc HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:11:08:34 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:11:34:53 +0000] "POST /api/v1/users/abc HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:11:34:54 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:13:49:38 +0000] "POST /api/v1/users/abc HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:13:49:38 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:13:52:08 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:13:52:08 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:14:15:28 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [19/Sep/2022:14:15:28 +0000] "POST /api/v1/users HTTP/1.1" 400 67 "-" "node-superagent/3.8.3"
+

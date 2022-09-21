@@ -6,31 +6,6 @@
     "auditLog": "logs\\requests\\daily\\.66602cdde70fd43456e51d0c9addc83824638c4d-audit.json",
     "files": [
         {
-            "date": 1662083056747,
-            "name": "logs\\requests\\daily\\2022-09-02.log",
-            "hash": "4b7351b08d2e2e0c3b14e0e2146f35b0f051bccf6481cd9cde4d22915c7bd0aa"
-        },
-        {
-            "date": 1662171615935,
-            "name": "logs\\requests\\daily\\2022-09-03.log",
-            "hash": "9a184c5d50cb3af1ec2fc4501ca759bdeb80ebb60f1635b1a6f460e99453f1e4"
-        },
-        {
-            "date": 1662345661844,
-            "name": "logs\\requests\\daily\\2022-09-05.log",
-            "hash": "b65e0748dc32ed4ca114e76558a6aa7f2916421bc2296883cbd89af1d8d5ddff"
-        },
-        {
-            "date": 1662431714662,
-            "name": "logs\\requests\\daily\\2022-09-06.log",
-            "hash": "0407f7111cd7f2bd08c260b99df08f274d70973150317addf079f7f152fe514b"
-        },
-        {
-            "date": 1662514006326,
-            "name": "logs\\requests\\daily\\2022-09-07.log",
-            "hash": "25db688abff1db2d896079d4c6e9fcec4bad9fe143ee2714a7a4710e9b0b3edd"
-        },
-        {
             "date": 1662600007654,
             "name": "logs\\requests\\daily\\2022-09-08.log",
             "hash": "a040094915ff7f5a5397228e2ad7606f17af3d5c2ac0888bf6565564c47c166e"
@@ -74,6 +49,21 @@
             "date": 1663291782621,
             "name": "logs\\requests\\daily\\2022-09-16.log",
             "hash": "73a325c47741c33f1500f23051c4a54b78ef53ce4d69a96643d525cf741785aa"
+        },
+        {
+            "date": 1663554560307,
+            "name": "logs\\requests\\daily\\2022-09-19.log",
+            "hash": "1b65ad25fff15ea7d0f5698bc751d8b87d44a6fcc73b6bfcea1d6332b68abbbe"
+        },
+        {
+            "date": 1663641160918,
+            "name": "logs\\requests\\daily\\2022-09-20.log",
+            "hash": "84184c961a17e6c58d899d40a3e97bdfc95c1c0c81ab0363aa99d1feb7a30b87"
+        },
+        {
+            "date": 1663727734964,
+            "name": "logs\\requests\\daily\\2022-09-21.log",
+            "hash": "1483702944e6ffc91a2ec0c5aee6c03cb562ad2f37b56348fd60e4adbe822766"
         }
     ],
     "hashType": "sha256"

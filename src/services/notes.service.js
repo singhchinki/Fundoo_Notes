@@ -17,8 +17,8 @@ export const getAllNotes = async (userdetails) => {
 };
 
 //get single note
-export const getANote = async (id, body) => {
-    const data = await Notes.findById({ _id: id, UserId: body.UserId });
+export const getANote = async (id, UserId) => {
+    const data = await Notes.findById({ _id: id, UserId: UserId });
     return data;
 };
 //update single note
