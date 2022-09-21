@@ -12,13 +12,13 @@ router.post('',userAuth,notesController.addNote);
 router.get('',userAuth,notesController.getAllNotes);
 
 // //To get a Note for the give id
- router.get('/:noteid/getAnote',userAuth,notesController.getANote);
+ router.get('/:noteid',userAuth,notesController.getANote);
 
 //To update details of Notes
-router.put('/:noteid/update',userAuth,notesController.updateNotes);
+router.put('/:noteid',userAuth,notesController.updateNotes);
 
 //To delete a note
-router.delete('/:noteid/delete',userAuth,notesController.deleteNotes);
+router.delete('/:noteid',userAuth,notesController.deleteNotes);
 
 //route To archive note
 router.put('/:noteid/isarchive' ,userAuth, notesController.archiveNotes);

@@ -49,7 +49,7 @@ export const getAllNotes = async (req, res, next) => {
 
 export const getANote = async (req, res, next) => {
     try {
-        const data = await notesService.getANote(req.params.noteid);
+        const data = await notesService.getANote(req.params.noteid, req.body.UserId);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
@@ -70,8 +70,8 @@ export const getANote = async (req, res, next) => {
 export const updateNotes = async (req, res, next) => {
     try {
         const data = await notesService.updateNotes(req.params.noteid, req.body);
-        res.status(HttpStatus.ACCEPTED).json({
-            code: HttpStatus.ACCEPTED,
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
             data: data,
             message: 'Updated Note Details Successfully'
         });
