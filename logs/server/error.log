@@ -2368,3 +2368,124 @@ AssertionError: expected 200 to equal 202
     at Server.emit (node:events:527:28)
     at emitCloseNT (node:net:1728:8)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Sep 21 2022 08:11:17 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":202,"message":"expected 200 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 202\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:119:44)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":570818},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19223955,"external":22989030,"heapTotal":160669696,"heapUsed":122336360,"rss":196145152},"pid":44460,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 200 to equal 202\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:119:44)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-09-21T02:41:17.799Z","trace":[{"column":44,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js","function":null,"line":119,"method":null,"native":false},{"column":6,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: getNotesDetails is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:16:50)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:15:25)
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:32:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:30:25)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/redis.middleware.js:14:9)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-21T09:32:53.959Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserId: 'singhchinkikumari@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-21T09:32:53.971Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\tests\integration\/user.test.js:94:40)
+    at Test.assert (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Sep 21 2022 15:02:53 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:94:40)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":595514},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19609830,"external":29027182,"heapTotal":176685056,"heapUsed":148169448,"rss":212238336},"pid":47252,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:94:40)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-09-21T09:32:54.021Z","trace":[{"column":40,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js","function":null,"line":94,"method":null,"native":false},{"column":6,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\tests\integration\/user.test.js:104:40)
+    at Test.assert (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Sep 21 2022 15:02:54 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":595514},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19619051,"external":29036443,"heapTotal":176685056,"heapUsed":148410520,"rss":213061632},"pid":47252,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:104:40)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-09-21T09:32:54.049Z","trace":[{"column":40,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js","function":null,"line":104,"method":null,"native":false},{"column":6,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: getNotesDetails is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:21:55)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-21T09:48:15.519Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\tests\integration\/user.test.js:94:40)
+    at Test.assert (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Sep 21 2022 15:18:15 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:94:40)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":596436},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19510657,"external":24408566,"heapTotal":174411776,"heapUsed":144451136,"rss":210235392},"pid":45076,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:94:40)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-09-21T09:48:15.559Z","trace":[{"column":40,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js","function":null,"line":94,"method":null,"native":false},{"column":6,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: getNotesDetails is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:21:55)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-21T09:55:31.482Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\tests\integration\/user.test.js:94:40)
+    at Test.assert (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Sep 21 2022 15:25:31 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:94:40)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":596872},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18446856,"external":21254027,"heapTotal":172298240,"heapUsed":138416392,"rss":205864960},"pid":46716,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js:94:40)\n    at Test.assert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-09-21T09:55:31.524Z","trace":[{"column":40,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\tests\\integration\\/user.test.js","function":null,"line":94,"method":null,"native":false},{"column":6,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: Notes validation failed: Description: Path `Description` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2782:32)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2574:17
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-21T10:45:51.877Z"}

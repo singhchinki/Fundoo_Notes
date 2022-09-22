@@ -80,3 +80,79 @@ info: ::ffff:127.0.0.1 - - [21/Sep/2022:02:43:21 +0000] "GET /api/v1/notes/632a7
 
 info: ::ffff:127.0.0.1 - - [21/Sep/2022:02:43:21 +0000] "PUT /api/v1/notes/632a7a49c163649bd89066bd HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:02:50:49 +0000] "POST /api/v1/users HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:02:50:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:02:50:49 +0000] "POST /api/v1/notes HTTP/1.1" 201 309 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:02:50:49 +0000] "GET /api/v1/notes HTTP/1.1" 202 311 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:02:50:49 +0000] "GET /api/v1/notes/632a7c09616480ad18836b06 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:02:50:49 +0000] "PUT /api/v1/notes/632a7c09616480ad18836b06 HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:05:35:12 +0000] "POST /api/v1/users HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:05:35:12 +0000] "POST /api/v1/users/login HTTP/1.1" 202 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:05:35:12 +0000] "POST /api/v1/notes HTTP/1.1" 201 309 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:05:35:12 +0000] "GET /api/v1/notes HTTP/1.1" 202 311 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:05:35:12 +0000] "GET /api/v1/notes/632aa29035228b8c48bf0823 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:05:35:12 +0000] "PUT /api/v1/notes/632aa29035228b8c48bf0823 HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:32:53 +0000] "POST /api/v1/users HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:32:53 +0000] "POST /api/v1/users/login HTTP/1.1" 202 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:32:53 +0000] "GET /api/v1/notes HTTP/1.1" 500 65 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:32:53 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 182 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:32:53 +0000] "POST /api/v1/notes HTTP/1.1" 201 309 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:48:15 +0000] "POST /api/v1/users HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:48:15 +0000] "POST /api/v1/users/login HTTP/1.1" 202 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:48:15 +0000] "POST /api/v1/notes HTTP/1.1" 201 309 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:48:15 +0000] "GET /api/v1/notes HTTP/1.1" 500 65 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:48:15 +0000] "GET /api/v1/notes/632adddf53799fb0149771fc HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:55:31 +0000] "POST /api/v1/users HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:55:31 +0000] "POST /api/v1/users/login HTTP/1.1" 202 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:55:31 +0000] "POST /api/v1/notes HTTP/1.1" 201 309 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:55:31 +0000] "GET /api/v1/notes HTTP/1.1" 500 65 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:09:55:31 +0000] "GET /api/v1/notes/632adf9302c19db67c497e2b HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:10:43:39 +0000] "POST /api/v1/users HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:10:43:39 +0000] "POST /api/v1/users/login HTTP/1.1" 202 267 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:10:43:39 +0000] "POST /api/v1/notes HTTP/1.1" 201 309 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:10:43:39 +0000] "GET /api/v1/notes HTTP/1.1" 202 311 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:10:43:39 +0000] "GET /api/v1/notes/632aeadbd5cee6c254b1a89c HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:10:43:39 +0000] "PUT /api/v1/notes/632aeadbd5cee6c254b1a89c HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Sep/2022:10:43:39 +0000] "DELETE /api/v1/notes/632aeadbd5cee6c254b1a89c HTTP/1.1" 200 61 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [21/Sep/2022:10:45:15 +0000] "POST /api/v1/users/login HTTP/1.1" 202 249 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Sep/2022:10:45:51 +0000] "POST /api/v1/notes HTTP/1.1" 500 138 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Sep/2022:10:46:23 +0000] "POST /api/v1/notes HTTP/1.1" 201 286 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Sep/2022:10:46:31 +0000] "GET /api/v1/notes HTTP/1.1" 202 757 "-" "PostmanRuntime/7.29.2"
+

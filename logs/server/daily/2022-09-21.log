@@ -22,3 +22,122 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T0
 info: Connected to the database. {"timestamp":"2022-09-21T02:41:17.324Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T02:43:21.448Z"}
 info: Connected to the database. {"timestamp":"2022-09-21T02:43:21.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T02:50:49.198Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T02:50:49.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T05:35:11.839Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T05:35:11.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T05:35:25.951Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T05:35:34.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T07:25:50.456Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T07:25:54.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T07:30:33.457Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T07:30:42.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T09:16:25.970Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-21T09:16:25.983Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T09:16:35.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T09:31:35.335Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-21T09:31:35.341Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T09:31:43.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T09:32:53.534Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-21T09:32:53.549Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T09:32:53.568Z"}
+error: 
+    status - 500 
+    message - ReferenceError: getNotesDetails is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:16:50)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:15:25)
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:32:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:30:25)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\middlewares\/redis.middleware.js:14:9)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-21T09:32:53.959Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserId: 'singhchinkikumari@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-21T09:32:53.971Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T09:44:42.114Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-21T09:44:42.120Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T09:44:48.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T09:48:15.166Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-21T09:48:15.185Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T09:48:15.200Z"}
+error: 
+    status - 500 
+    message - ReferenceError: getNotesDetails is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:21:55)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-21T09:48:15.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T09:55:31.083Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-21T09:55:31.106Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T09:55:31.123Z"}
+error: 
+    status - 500 
+    message - ReferenceError: getNotesDetails is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:21:55)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-21T09:55:31.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T10:43:39.301Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-21T10:43:39.333Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T10:43:39.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T10:45:08.250Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-21T10:45:08.261Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T10:45:11.784Z"}
+error: 
+    status - 500 
+    message - ValidationError: Notes validation failed: Description: Path `Description` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2782:32)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2574:17
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-21T10:45:51.877Z"}
