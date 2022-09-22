@@ -1,18 +1,27 @@
 import { id } from '@hapi/joi/lib/base';
 import jwt from 'jsonwebtoken';
 import Notes from '../models/notes.model';
+import { client } from '../config/redis';
 
 
 //create new note
 export const addNote = async (body) => {
     const data = await Notes.create(body);
-    return data;
+    if (data) {
+        await client.del('getAllData');
+        return data;
+    }
+
 };
 
 //get all notes
 export const getAllNotes = async (userdetails) => {
     const data = await Notes.find({ UserId: userdetails.UserId });
-    return data;
+    if (data) {
+        await client.set('getAllData', JSON.stringify(data));
+        return data;
+    }
+
 
 };
 
