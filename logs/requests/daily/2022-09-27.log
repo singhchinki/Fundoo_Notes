@@ -1,0 +1,56 @@
+info: ::1 - - [27/Sep/2022:10:34:29 +0000] "POST /api/v1/users/login HTTP/1.1" 202 256 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:10:36:27 +0000] "POST /api/v1/label HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:10:36:57 +0000] "POST /api/v1/labels HTTP/1.1" 400 74 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:10:38:50 +0000] "POST /api/v1/labels HTTP/1.1" 201 237 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:10:39:42 +0000] "PUT /api/v1/labels/6332d2b9323fe44e60f1dc3b HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:10:40:04 +0000] "DELETE /api/v1/labels/6332d2b9323fe44e60f1dc3b HTTP/1.1" 202 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:10:43:04 +0000] "POST /api/v1/users/login HTTP/1.1" 202 256 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:10:43:49 +0000] "POST /api/v1/labels HTTP/1.1" 201 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:10:44:48 +0000] "PUT /api/v1/labels/6332d3e4323fe44e60f1dc40 HTTP/1.1" 202 249 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:13:56:02 +0000] "POST /api/v1/users HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:13:56:26 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:13:57:34 +0000] "POST /api/v1/labels HTTP/1.1" 201 239 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:13:58:08 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:00:18 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 500 168 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:00:43 +0000] "GET /api/v1/labels/ HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:00:58 +0000] "PUT /api/v1/labels/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:01:08 +0000] "PUT /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 202 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:01:18 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 500 168 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:01:53 +0000] "GET /api/v1/labels HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:04:26 +0000] "GET /api/v1/labels HTTP/1.1" 202 227 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:06:39 +0000] "GET /api/v1/labels HTTP/1.1" 202 227 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:07:30 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 500 168 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:08:56 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:09:21 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 500 152 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:10:02 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 500 167 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:11:22 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 500 184 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:15:38 +0000] "GET /api/v1/labels/ HTTP/1.1" 202 227 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:14:16:08 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 500 184 "-" "PostmanRuntime/7.29.2"
+

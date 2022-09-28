@@ -34,13 +34,13 @@ export async function sendMail(email,token) {
         const result = await transport.sendMail(mailOption)
         //return result
         return token;
-
-    }
-    catch (error) {
+    }catch (error) {
         return error
     }
-
 }
-// sendMail()
-// .then(result=> console.log('Email sent...', result))
-// .catch(error=> console.log(error.message));
+
+
+  
+  // sendMail()
+    //.then((result) => console.log('Email sent...', result))
+    //.catch((error) => console.log(error.message));  

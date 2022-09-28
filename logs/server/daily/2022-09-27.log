@@ -1,0 +1,177 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T10:32:30.798Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T10:32:30.812Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T10:32:41.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T10:38:37.493Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T10:38:37.504Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T10:38:46.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T13:49:48.116Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T13:49:48.127Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T13:49:56.735Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Notes is not defined
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/label.service.js:18:26)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getALabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/label.service.js:18:23)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/label.controller.js:55:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/labels/6333014d06b9793e1471767d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T13:58:08.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T14:00:11.100Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T14:00:11.112Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T14:00:16.818Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined, UserId: 'rahul@gmail.com' }" (type Object) at path "_id" for model "Label"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/labels/6333014d06b9793e1471767d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:00:18.606Z"}
+error: 
+    status - 500 
+    message - ReferenceError: client is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/label.service.js:8:28)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/labels/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:00:43.075Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined, UserId: 'rahul@gmail.com' }" (type Object) at path "_id" for model "Label"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/labels/6333014d06b9793e1471767d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:01:18.008Z"}
+error: 
+    status - 500 
+    message - ReferenceError: client is not defined
+    at _callee2$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/label.service.js:8:28)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/labels 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:01:53.785Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T14:04:17.658Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T14:04:17.667Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T14:04:21.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T14:06:26.473Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T14:06:26.481Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T14:06:30.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T14:07:20.213Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T14:07:20.225Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T14:07:25.926Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined, UserId: 'rahul@gmail.com' }" (type Object) at path "_id" for model "Label"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/labels/6333014d06b9793e1471767d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:07:30.820Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T14:08:39.896Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T14:08:39.907Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T14:08:43.920Z"}
+error: 
+    status - 500 
+    message - ReferenceError: id is not defined
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/label.service.js:18:46)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getALabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/label.service.js:17:23)
+    at _callee3$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/label.controller.js:55:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/labels/6333014d06b9793e1471767d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:08:56.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T14:09:16.472Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T14:09:16.483Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T14:09:20.050Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ UserId: 'rahul@gmail.com' }" (type Object) at path "_id" for model "Label"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/labels/6333014d06b9793e1471767d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:09:21.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T14:09:55.095Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T14:09:55.129Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T14:09:58.721Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined, UserId: 'rahul@gmail.com' }" (type Object) at path "_id" for model "Label"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/labels/6333014d06b9793e1471767d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:10:02.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T14:11:17.401Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-27T14:11:17.412Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '6333014d06b9793e1471767d', UserId: 'rahul@gmail.com' }" (type Object) at path "_id" for model "Label"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/labels/6333014d06b9793e1471767d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:11:22.198Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T14:11:26.460Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '6333014d06b9793e1471767d', UserId: 'rahul@gmail.com' }" (type Object) at path "_id" for model "Label"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/labels/6333014d06b9793e1471767d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-27T14:16:08.010Z"}
