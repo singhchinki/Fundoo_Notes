@@ -3958,3 +3958,346 @@ info: ::1 - - [27/Sep/2022:14:16:08 +0000] "GET /api/v1/labels/6333014d06b9793e1
 
 info: ::1 - - [28/Sep/2022:02:36:09 +0000] "GET /api/v1/labels/6333014d06b9793e1471767d HTTP/1.1" 200 235 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [28/Sep/2022:08:23:40 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:25:09 +0000] "POST /api/v1/notes HTTP/1.1" 201 323 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:25:27 +0000] "GET /api/v1/notes HTTP/1.1" 202 325 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:26:33 +0000] "PUT /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:26:45 +0000] "GET /api/v1/notes HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:26:54 +0000] "GET /api/v1/notes/633404e59771704a3c40b9eb HTTP/1.1" 200 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:27:04 +0000] "PUT /api/v1/notes/633404e59771704a3c40b9eb HTTP/1.1" 200 330 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:28:31 +0000] "PUT /api/v1/notes/633404e59771704a3c40b9eb/addLabel HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:29:10 +0000] "PUT /api/v1/notes/633404e59771704a3c40b9eb/addLabel HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:32:16 +0000] "PUT /api/v1/notes/633404e59771704a3c40b9eb/addLabel HTTP/1.1" 500 137 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:34:41 +0000] "PUT /api/v1/notes/633404e59771704a3c40b9eb/addLabel HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:08:35:48 +0000] "PUT /api/v1/notes/633404e59771704a3c40b9eb/addLabel HTTP/1.1" 201 337 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:10:57:58 +0000] "PUT /api/v1/notes/633404e59771704a3c40b9eb/addLabel HTTP/1.1" 201 335 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:11:06:14 +0000] "GET /api/v1/notes/633404e59771704a3c40b9eb HTTP/1.1" 200 336 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:11:06:57 +0000] "PUT /api/v1/notes/633404e59771704a3c40b9eb/addLabel HTTP/1.1" 201 335 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:15:55:11 +0000] "POST /api/v1/users HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:15:55:40 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:15:56:32 +0000] "POST /api/v1/notes HTTP/1.1" 201 307 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:15:57:53 +0000] "PUT /api/v1/notes/63346eaf9c931861042961c9/addLabel HTTP/1.1" 201 307 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:15:58:34 +0000] "POST /api/v1/notes HTTP/1.1" 201 307 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:15:58:58 +0000] "GET /api/v1/notes/63346f299c931861042961cd HTTP/1.1" 200 306 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:16:01:36 +0000] "GET /api/v1/notes/63346f299c931861042961cd/addLabel HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Sep/2022:16:01:44 +0000] "PUT /api/v1/notes/63346f299c931861042961cd/addLabel HTTP/1.1" 201 336 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: noteController is not defined
+ReferenceError: noteController is not defined
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/notes.routes.js:34:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Thu Sep 29 2022 10:16:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":436105},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19083469,"external":38233737,"heapTotal":197210112,"heapUsed":173463104,"rss":233910272},"pid":25692,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: noteController is not defined\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js:34:39)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","trace":[{"column":39,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+error: uncaughtException: noteController is not defined
+ReferenceError: noteController is not defined
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/notes.routes.js:34:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Thu Sep 29 2022 10:18:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":436273},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18388884,"external":26470953,"heapTotal":193802240,"heapUsed":160002072,"rss":229265408},"pid":27336,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: noteController is not defined\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js:34:39)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","trace":[{"column":39,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+info: ::1 - - [29/Sep/2022:06:29:16 +0000] "DELETE /api/v1/notes/63346f299c931861042961cd/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:33:13 +0000] "DELETE /api/v1/notes/63346f299c931861042961cd/removeLabel HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:34:11 +0000] "DELETE /api/v1/notes/63346f299c931861042961cd/removeLabel HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:35:09 +0000] "DELETE /api/v1/notes/63346f299c931861042961cd/removeLabel HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:37:22 +0000] "DELETE /api/v1/notes/63346f299c931861042961cd/removeLabel HTTP/1.1" 500 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:39:51 +0000] "DELETE /api/v1/notes/63346f299c931861042961cd/removeLabel HTTP/1.1" 500 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:41:33 +0000] "DELETE /api/v1/notes/63346f299c931861042961cd/removeLabel HTTP/1.1" 500 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:43:50 +0000] "DELETE /api/v1/notes/63346f299c931861042961cd/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:46:46 +0000] "DELETE /api/v1/notes/63346f299c931861042961cd/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:47:13 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:48:39 +0000] "POST /api/v1/notes HTTP/1.1" 201 349 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:50:20 +0000] "POST /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:50:27 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:51:28 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 201 376 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:52:39 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:52:47 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:53:13 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:110:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Thu Sep 29 2022 12:24:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":443821},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18783540,"external":26650465,"heapTotal":195375104,"heapUsed":164987824,"rss":231419904},"pid":29708,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\services\\/notes.service.js:110:39)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\controllers\\/notes.controller.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","trace":[{"column":39,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\services\\/notes.service.js","function":null,"line":110,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\controllers\\/notes.controller.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+info: ::1 - - [29/Sep/2022:06:56:22 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:06:57:32 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:00:06 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:01:28 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 86 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:04:38 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 86 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:05:32 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:05:54 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:11:20 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:14:18 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:15:13 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 149 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:16:43 +0000] "DELETE /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:26:19 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 201 376 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:26:36 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 201 376 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:27:17 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 201 376 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:29:21 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 500 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:29:55 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 201 133 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:30:21 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 201 133 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:32:44 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 201 133 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:33:20 +0000] "PUT /api/v1/notes/63353fc7ee318628406fc8d3/addLabel HTTP/1.1" 201 133 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:38:45 +0000] "POST /api/v1/users HTTP/1.1" 201 326 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:39:53 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:40:53 +0000] "POST /api/v1/notes HTTP/1.1" 201 340 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:41:48 +0000] "PUT /api/v1/notes/63354c05c7d72371c8bce2c8/addLabel HTTP/1.1" 201 114 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:44:19 +0000] "PUT /api/v1/notes/63354c05c7d72371c8bce2c8/addLabel HTTP/1.1" 201 348 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:44:49 +0000] "PUT /api/v1/notes/63354c05c7d72371c8bce2c8/addLabel HTTP/1.1" 201 348 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:56:54 +0000] "PUT /api/v1/notes/63354c05c7d72371c8bce2c8/addLabel HTTP/1.1" 201 114 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:57:54 +0000] "POST /api/v1/users HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:58:27 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:07:59:33 +0000] "POST /api/v1/notes HTTP/1.1" 201 336 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: Cannot read properties of undefined (reading '$elemMatch')
+TypeError: Cannot read properties of undefined (reading '$elemMatch')
+    at model.Query._castFields (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4981:23)
+    at model.Query.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:2240:23)
+    at model.Query._wrappedThunk [as _findOne] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Thu Sep 29 2022 13:30:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":447759},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18633239,"external":20481005,"heapTotal":123838464,"heapUsed":118698280,"rss":163278848},"pid":31540,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Cannot read properties of undefined (reading '$elemMatch')\n    at model.Query._castFields (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\query.js:4981:23)\n    at model.Query.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\query.js:2240:23)\n    at model.Query._wrappedThunk [as _findOne] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:16:8)\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","trace":[{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\query.js","function":"model.Query._castFields","line":4981,"method":"_castFields","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\query.js","function":null,"line":2240,"method":null,"native":false},{"column":8,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js","function":"model.Query._wrappedThunk [as _findOne]","line":16,"method":"_wrappedThunk [as _findOne]","native":false},{"column":33,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: ::1 - - [29/Sep/2022:08:01:36 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/addLabel HTTP/1.1" 201 336 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:02:25 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/addLabel HTTP/1.1" 201 347 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:02:53 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/addLabel HTTP/1.1" 201 347 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:04:39 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/addLabel HTTP/1.1" 201 347 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:05:56 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/addLabel HTTP/1.1" 201 347 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:06:32 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/addLabel HTTP/1.1" 201 347 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:06:57 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/removeLabel HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:07:46 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/removeLabel HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:08:12 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/addLabel HTTP/1.1" 201 347 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:08:37 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/removeLabel HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:08:46 +0000] "DELETE /api/v1/notes/63355064591b7f7b34fde726/removeLabel HTTP/1.1" 500 141 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:14:11 +0000] "DELETE /api/v1/notes/63355064591b7f7b34fde726/removeLabel HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:20:23 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:21:33 +0000] "POST /api/v1/notes HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:22:29 +0000] "PUT /api/v1/notes/6335558b91a95c0fac9cf060/addLabel HTTP/1.1" 201 336 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:24:57 +0000] "POST /api/v1/labels HTTP/1.1" 400 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:08:25:11 +0000] "POST /api/v1/labels HTTP/1.1" 201 231 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:09:50:00 +0000] "PUT /api/v1/notes/63355064591b7f7b34fde726/addLabel HTTP/1.1" 500 57 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:09:51:37 +0000] "POST /api/v1/users HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:09:52:07 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:09:52:56 +0000] "POST /api/v1/notes HTTP/1.1" 201 330 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:09:53:49 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addLabel HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:09:53:57 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addLabel HTTP/1.1" 500 57 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:09:55:17 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addLabel HTTP/1.1" 201 347 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:12:06 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 357 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:14:36 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 357 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:19:29 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 500 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:27:11 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 500 87 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:28:01 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 500 87 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:34:38 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 357 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:35:05 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 357 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:36:56 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 357 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:38:38 +0000] "PUT /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 357 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:40:05 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 357 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:41:51 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 357 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:42:37 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 372 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:44:06 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 370 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:44:29 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 370 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:06:17 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 370 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:07:07 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 388 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:07:24 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 407 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:09:57 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:10:38 +0000] "POST /api/v1/notes/63356af78a803f6c7828d4cb/addPeople HTTP/1.1" 201 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:11:28 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:11:58 +0000] "POST /api/v1/notes HTTP/1.1" 500 138 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:12:21 +0000] "POST /api/v1/notes HTTP/1.1" 201 330 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:13:12 +0000] "POST /api/v1/notes/63358ba4acc2067f48307764/addPerson HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:13:36 +0000] "POST /api/v1/notes/63358ba4acc2067f48307764/addPeople HTTP/1.1" 201 353 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:12:13:50 +0000] "POST /api/v1/notes/63358ba4acc2067f48307764/addPeople HTTP/1.1" 201 371 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:15:09:18 +0000] "PUT /api/v1/notes/63358ba4acc2067f48307764/addLabel HTTP/1.1" 201 369 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:15:10:20 +0000] "PUT /api/v1/notes/63358ba4acc2067f48307764/addLabel HTTP/1.1" 500 94 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:15:11:09 +0000] "PUT /api/v1/notes/63358ba4acc2067f48307764/addLabel HTTP/1.1" 201 367 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:15:12:23 +0000] "PUT /api/v1/notes/63358ba4acc2067f48307764/addLabel HTTP/1.1" 201 367 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:15:14:15 +0000] "PUT /api/v1/notes/63358ba4acc2067f48307764/addLabel HTTP/1.1" 500 133 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:15:19:25 +0000] "PUT /api/v1/notes/63358ba4acc2067f48307764/addLabel HTTP/1.1" 500 133 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:15:21:31 +0000] "PUT /api/v1/notes/63358ba4acc2067f48307764/addLabel HTTP/1.1" 201 367 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:15:28:41 +0000] "PUT /api/v1/notes/63358ba4acc2067f48307764/addLabel HTTP/1.1" 201 373 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:15:30:45 +0000] "PUT /api/v1/notes/63358ba4acc2067f48307764/addLabel HTTP/1.1" 201 390 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:11:45 +0000] "POST /api/v1/notes/63358ba4acc2067f48307764/addPeople HTTP/1.1" 201 413 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:13:47 +0000] "DELETE /api/v1/notes/63358ba4acc2067f48307764/removeLabel HTTP/1.1" 200 414 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:14:56 +0000] "DELETE /api/v1/notes/63358ba4acc2067f48307764/removeLabel HTTP/1.1" 200 419 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:24:32 +0000] "DELETE /api/v1/notes/63358ba4acc2067f48307764/removeLabel HTTP/1.1" 200 388 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as delete] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/notes.routes.js:40:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7) {"date":"Fri Sep 30 2022 08:54:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":517640},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18900943,"external":32698743,"heapTotal":193015808,"heapUsed":165975784,"rss":229257216},"pid":30172,"uid":null,"version":"v16.15.1"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as delete] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js:40:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)","trace":[{"column":15,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":211,"method":"<computed> [as delete]","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":521,"method":"<computed> [as delete]","native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js","function":null,"line":40,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false}]}
+info: ::1 - - [30/Sep/2022:03:26:09 +0000] "DELETE /api/v1/notes/63358ba4acc2067f48307764/removePeople HTTP/1.1" 500 86 "-" "PostmanRuntime/7.29.2"
+

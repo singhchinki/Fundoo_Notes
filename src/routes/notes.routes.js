@@ -25,9 +25,19 @@ router.delete('/:noteid',userAuth,notesController.deleteNotes);
 router.put('/:noteid/isarchive' ,userAuth, notesController.archiveNotes);
 
 //route To trash note
-
 router.put('/:noteid/istrash' ,userAuth, notesController.trashNotes);
 
+//route To addLabel
+router.put('/:noteid/addLabel', notesController.addLabel);
+
+//route to remove label from note
+router.delete('/:noteid/removeLabel', notesController.removeLabel);
+
+//route to Collaborator
+router.post('/:noteid/addPeople', notesController.Collaborator);
+
+//route to remove Collaborator
+router.delete('/:noteid/removePeople', notesController.removeCollaborator);
 
 
 export default router;

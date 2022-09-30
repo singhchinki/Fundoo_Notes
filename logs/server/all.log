@@ -4342,3 +4342,833 @@ error:
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:35:56.990Z"}
 info: Connected to the redis data base {"timestamp":"2022-09-28T02:35:57.004Z"}
 info: Connected to the database. {"timestamp":"2022-09-28T02:36:05.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:53:48.238Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T07:53:48.253Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:53:52.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:12:43.640Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:12:43.654Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:12:47.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:19:54.356Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:19:54.367Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:20:00.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:27:32.612Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:27:32.625Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:27:51.877Z"}
+error: 
+    status - 500 
+    message - ReferenceError: noteService is not defined
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:150:26)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addLabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:150:23)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\index.js:365:14) 
+    url - /api/v1/notes/633404e59771704a3c40b9eb/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-28T08:28:31.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:29:02.855Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:29:02.873Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Label is not defined
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:81:25)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addLabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:81:22)
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:152:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/633404e59771704a3c40b9eb/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-28T08:29:10.969Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:29:22.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:32:13.571Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:32:13.587Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[chinki label]" (type string) at path "_id" for model "Label"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/633404e59771704a3c40b9eb/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-28T08:32:16.297Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:32:29.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:34:26.277Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:34:26.290Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:34:40.372Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Note is not defined
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:82:25)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/633404e59771704a3c40b9eb/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-28T08:34:41.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:35:38.720Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:35:38.729Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:35:47.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T03:37:10.617Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T03:37:10.641Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T03:37:19.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T04:22:31.411Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T04:22:31.426Z"}
+error: uncaughtException: noteController is not defined
+ReferenceError: noteController is not defined
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/notes.routes.js:34:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Thu Sep 29 2022 10:16:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":436105},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19072203,"external":38222431,"heapTotal":196947968,"heapUsed":173078288,"rss":233091072},"pid":25692,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: noteController is not defined\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js:34:39)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","timestamp":"2022-09-29T04:46:00.978Z","trace":[{"column":39,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+error: uncaughtException: noteController is not defined
+ReferenceError: noteController is not defined
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/notes.routes.js:34:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Thu Sep 29 2022 10:18:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":436273},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18377618,"external":26459647,"heapTotal":193802240,"heapUsed":159891200,"rss":229916672},"pid":27336,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: noteController is not defined\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js:34:39)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","timestamp":"2022-09-29T04:48:48.962Z","trace":[{"column":39,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T04:49:36.751Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T04:49:36.765Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T04:49:45.729Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63346f299c931861042961cd/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:29:16.248Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:32:37.033Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:32:37.043Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:32:46.263Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:33:10.447Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:33:10.459Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63346f299c931861042961cd/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:33:13.959Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:33:16.206Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:34:02.947Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:34:02.958Z"}
+error: 
+    status - 500 
+    message - ReferenceError: noteid is not defined
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:103:16)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeLabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:95:25)
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:172:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/63346f299c931861042961cd/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:34:11.142Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:34:12.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:35:00.814Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:35:00.825Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:35:05.590Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ noteid: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63346f299c931861042961cd/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:35:09.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:36:40.146Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:36:40.159Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:36:49.317Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'LabelId')
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:97:18)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63346f299c931861042961cd/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:37:22.299Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:39:41.920Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:39:41.932Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:39:51.170Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'LabelId')
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:98:18)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63346f299c931861042961cd/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:39:51.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:40:46.224Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:40:46.238Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:40:53.588Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'LabelId')
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:98:18)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63346f299c931861042961cd/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:41:33.949Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:43:08.175Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:43:08.187Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:43:13.748Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63346f299c931861042961cd/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:43:50.628Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63346f299c931861042961cd/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:46:46.047Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:51:23.585Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:51:23.598Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:51:27.338Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:52:47.070Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:53:13.566Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:110:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Thu Sep 29 2022 12:24:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":443821},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18772214,"external":26639099,"heapTotal":195375104,"heapUsed":164882904,"rss":232321024},"pid":29708,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\services\\/notes.service.js:110:39)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\controllers\\/notes.controller.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","timestamp":"2022-09-29T06:54:37.142Z","trace":[{"column":39,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\services\\/notes.service.js","function":null,"line":110,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\controllers\\/notes.controller.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:55:51.864Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:55:51.878Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:55:55.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:56:18.804Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:56:18.816Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:56:22.412Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:56:22.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:57:26.686Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:57:26.696Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T06:57:32.281Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:57:32.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T06:59:52.908Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T06:59:52.920Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T06:59:58.776Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ UserId: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:00:06.158Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:00:24.838Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:00:24.871Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:00:28.690Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:01:13.207Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:01:13.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:01:22.460Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:01:22.476Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:98:29)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeLabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:95:25)
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:172:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:01:28.364Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:01:33.206Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:04:33.176Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:04:33.189Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:98:29)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeLabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:95:25)
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:172:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:04:38.557Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:04:38.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:05:02.116Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:05:02.147Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:05:11.312Z"}
+error: 
+    status - 500 
+    message - ReferenceError: noteService is not defined
+    at _callee9$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:170:29)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at removeLabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:170:26)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\index.js:365:14) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:05:32.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:05:47.825Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:05:47.836Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:05:51.960Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:05:54.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:11:09.282Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:11:09.291Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:11:13.297Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:11:20.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:14:08.295Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:14:08.304Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:14:18.230Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ noteid: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:14:18.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:15:01.226Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:15:01.235Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:15:10.562Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ LabelId: [ undefined ] }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:15:13.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:16:37.639Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:16:37.651Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:16:43.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:16:56.103Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:16:56.117Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:17:00.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:25:47.621Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:25:47.634Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:25:51.783Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:29:12.126Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:29:12.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:29:16.985Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:29:16.996Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:29:20.623Z"}
+error: 
+    status - 500 
+    message - TypeError: "labelCheck" is read-only
+    at _readOnlyError (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\readOnlyError.js:2:9)
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:82:25)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63353fc7ee318628406fc8d3/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-29T07:29:21.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:29:45.760Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:29:45.772Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:29:54.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:32:26.055Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:32:26.067Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:32:36.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:44:09.798Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:44:09.809Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:44:13.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T07:56:49.155Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T07:56:49.167Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T07:56:53.301Z"}
+error: uncaughtException: Cannot read properties of undefined (reading '$elemMatch')
+TypeError: Cannot read properties of undefined (reading '$elemMatch')
+    at model.Query._castFields (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4981:23)
+    at model.Query.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:2240:23)
+    at model.Query._wrappedThunk [as _findOne] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Thu Sep 29 2022 13:30:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":447759},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18625023,"external":20472749,"heapTotal":123576320,"heapUsed":118384248,"rss":162533376},"pid":31540,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Cannot read properties of undefined (reading '$elemMatch')\n    at model.Query._castFields (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\query.js:4981:23)\n    at model.Query.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\query.js:2240:23)\n    at model.Query._wrappedThunk [as _findOne] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:16:8)\n    at D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-09-29T08:00:15.129Z","trace":[{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\query.js","function":"model.Query._castFields","line":4981,"method":"_castFields","native":false},{"column":23,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\query.js","function":null,"line":2240,"method":null,"native":false},{"column":8,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js","function":"model.Query._wrappedThunk [as _findOne]","line":16,"method":"_wrappedThunk [as _findOne]","native":false},{"column":33,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T08:01:16.401Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T08:01:16.431Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T08:01:22.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T08:04:28.561Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T08:04:28.574Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T08:04:32.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T08:05:45.358Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T08:05:45.369Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T08:05:55.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T08:06:20.903Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T08:06:20.913Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T08:06:24.919Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63355064591b7f7b34fde726/removeLabel 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-29T08:08:46.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T08:13:52.417Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T08:13:52.432Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T08:14:02.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T09:49:28.776Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T09:49:28.786Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T09:49:38.361Z"}
+error: 
+    status - 500 
+    message - Error: label is already Exist
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:86:16)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63355064591b7f7b34fde726/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-29T09:50:00.159Z"}
+error: 
+    status - 500 
+    message - Error: label is already Exist
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:86:16)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63356af78a803f6c7828d4cb/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-29T09:53:57.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T09:55:06.783Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T09:55:06.812Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T09:55:16.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T09:58:46.811Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T09:58:46.827Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T09:58:51.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:09:36.390Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:09:36.400Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:09:40.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:11:54.252Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:11:54.267Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:11:57.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:17:17.116Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:17:17.131Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:17:22.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:19:21.339Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:19:21.355Z"}
+error: 
+    status - 500 
+    message - ReferenceError: collaborators is not defined
+    at _callee10$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:114:28)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.Collaborator (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:107:26)
+    at _callee10$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:191:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/63356af78a803f6c7828d4cb/addPeople 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-29T11:19:29.846Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:19:41.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:26:53.125Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:26:53.139Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:26:58.564Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'push')
+    at _callee10$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:111:28)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63356af78a803f6c7828d4cb/addPeople 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-29T11:27:11.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:27:55.892Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:27:55.908Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:28:00.483Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'push')
+    at _callee10$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:111:28)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63356af78a803f6c7828d4cb/addPeople 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-29T11:28:01.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:34:28.092Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:34:28.108Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:34:37.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:36:44.649Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:36:44.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:36:51.196Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:36:51.206Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:36:54.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:38:32.452Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:38:32.479Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:38:38.086Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:39:46.219Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:39:46.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:39:52.239Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:39:52.258Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:40:01.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:41:40.321Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:41:40.353Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:41:49.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T11:42:14.548Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T11:42:14.562Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T11:42:23.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T12:06:08.907Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T12:06:08.917Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T12:06:12.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T12:07:02.524Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T12:07:02.540Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T12:07:05.954Z"}
+error: 
+    status - 500 
+    message - ValidationError: Notes validation failed: Description: Path `Description` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2782:32)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\document.js:2574:17
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-29T12:11:58.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T15:07:14.149Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T15:07:14.163Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T15:07:19.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T15:07:42.630Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T15:07:42.639Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T15:07:48.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T15:10:03.288Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T15:10:03.305Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `labels.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) 
+    url - /api/v1/notes/63358ba4acc2067f48307764/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-29T15:10:20.201Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T15:10:23.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T15:10:55.018Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T15:10:55.033Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T15:11:04.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T15:14:08.091Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T15:14:08.105Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T15:14:14.625Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to [string] failed for value "[{"label":" shiva"}]" (type string) at path "LabelId.0"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63358ba4acc2067f48307764/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-29T15:14:15.453Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to [string] failed for value "[{"label":" shiva"}]" (type string) at path "LabelId.0"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63358ba4acc2067f48307764/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-29T15:19:25.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T15:21:03.324Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T15:21:03.337Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T15:21:08.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-29T15:30:16.335Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-29T15:30:16.348Z"}
+info: Connected to the database. {"timestamp":"2022-09-29T15:30:22.144Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:11:37.429Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:11:37.446Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:11:41.026Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:17:52.718Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:17:52.737Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:18:01.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:24:24.615Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:24:24.633Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:24:28.000Z"}
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as delete] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/notes.routes.js:40:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\pirates\lib\index.js:141:7) {"date":"Fri Sep 30 2022 08:54:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":517640},"process":{"argv":["node","D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\index.js"],"cwd":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18888559,"external":32686319,"heapTotal":192753664,"heapUsed":165620208,"rss":228368384},"pid":30172,"uid":null,"version":"v16.15.1"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as delete] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js:40:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js:141:7)","timestamp":"2022-09-30T03:24:55.654Z","trace":[{"column":15,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":211,"method":"<computed> [as delete]","native":false},{"column":19,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":521,"method":"<computed> [as delete]","native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/notes.routes.js","function":null,"line":40,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\CPF Batch\\Fandoo-Notes\\FandooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:25:47.969Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:25:47.985Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:25:56.604Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee11$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:131:45)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeCollaborator (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:128:32)
+    at _callee11$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:211:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/63358ba4acc2067f48307764/removePeople 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-30T03:26:09.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:32:43.160Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:32:43.168Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:32:46.676Z"}

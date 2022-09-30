@@ -1,3 +1,97 @@
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:35:56.990Z"}
 info: Connected to the redis data base {"timestamp":"2022-09-28T02:35:57.004Z"}
 info: Connected to the database. {"timestamp":"2022-09-28T02:36:05.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:53:48.238Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T07:53:48.253Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:53:52.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:12:43.640Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:12:43.654Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:12:47.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:19:54.356Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:19:54.367Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:20:00.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:27:32.612Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:27:32.625Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:27:51.877Z"}
+error: 
+    status - 500 
+    message - ReferenceError: noteService is not defined
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:150:26)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addLabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:150:23)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\express\lib\router\index.js:365:14) 
+    url - /api/v1/notes/633404e59771704a3c40b9eb/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-28T08:28:31.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:29:02.855Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:29:02.873Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Label is not defined
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:81:25)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addLabel (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:81:22)
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:152:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/633404e59771704a3c40b9eb/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-28T08:29:10.969Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:29:22.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:32:13.571Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:32:13.587Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[chinki label]" (type string) at path "_id" for model "Label"
+    at model.Query.exec (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/633404e59771704a3c40b9eb/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-28T08:32:16.297Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:32:29.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:34:26.277Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:34:26.290Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:34:40.372Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Note is not defined
+    at _callee8$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:82:25)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/633404e59771704a3c40b9eb/addLabel 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-28T08:34:41.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T08:35:38.720Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-28T08:35:38.729Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T08:35:47.537Z"}

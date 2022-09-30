@@ -1,0 +1,10 @@
+info: ::1 - - [30/Sep/2022:03:11:45 +0000] "POST /api/v1/notes/63358ba4acc2067f48307764/addPeople HTTP/1.1" 201 413 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:13:47 +0000] "DELETE /api/v1/notes/63358ba4acc2067f48307764/removeLabel HTTP/1.1" 200 414 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:14:56 +0000] "DELETE /api/v1/notes/63358ba4acc2067f48307764/removeLabel HTTP/1.1" 200 419 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:24:32 +0000] "DELETE /api/v1/notes/63358ba4acc2067f48307764/removeLabel HTTP/1.1" 200 388 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:26:09 +0000] "DELETE /api/v1/notes/63358ba4acc2067f48307764/removePeople HTTP/1.1" 500 86 "-" "PostmanRuntime/7.29.2"
+

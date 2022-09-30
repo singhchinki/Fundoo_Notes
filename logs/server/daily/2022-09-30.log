@@ -1,0 +1,38 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:11:37.429Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:11:37.446Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:11:41.026Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:17:52.718Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:17:52.737Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:18:01.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:24:24.615Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:24:24.633Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:24:28.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:25:47.969Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:25:47.985Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:25:56.604Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee11$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:131:45)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeCollaborator (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\services\/notes.service.js:128:32)
+    at _callee11$ (D:\CPF Batch\Fandoo-Notes\FandooNotes\src\controllers\/notes.controller.js:211:41)
+    at tryCatch (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPF Batch\Fandoo-Notes\FandooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/63358ba4acc2067f48307764/removePeople 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-30T03:26:09.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-30T03:32:43.160Z"}
+info: Connected to the redis data base {"timestamp":"2022-09-30T03:32:43.168Z"}
+info: Connected to the database. {"timestamp":"2022-09-30T03:32:46.676Z"}
