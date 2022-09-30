@@ -140,4 +140,81 @@ export const trashNotes = async (req, res, next) => {
         next(error);
     }
 };
+/**
+ * Controller to add label to note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
 
+ export const addLabel = async (req, res, next) => {
+    try {
+        const data = await notesService.addLabel(req.params.noteid, req.body.LabelId);
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'label added successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+/**
+ * Controller to delete label from note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+ export const removeLabel = async (req, res, next) => {
+    try {
+        const data = await notesService.removeLabel(req.params.noteid, req.body.LabelId);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'label removed successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+/**
+ * Controller to create a new notes
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const Collaborator = async (req, res, next) => {
+    try {
+        const data = await notesService.Collaborator(req.params.noteid, req.body.collaborators);
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'Collaborator done successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+
+/**
+ * Controller to create a new notes
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const removeCollaborator = async (req, res, next) => {
+    try {
+        const data = await notesService.removeCollaborator(req.params.noteid, req.body);
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'Collaborator remove successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};

@@ -17,18 +17,22 @@ const noteSchema = new Schema(
     LabelId: [{
       type: String,
   }],
-    IsArchived: {
-        type: Boolean,
-        default: false
-    },
-    IsTrashed: {
-      type: Boolean,
-      default: false
-    },
+  collaborators: [{
+    type: String,
+  }],
+    
     UserId: { 
       type: String
       
-    }
+    },
+    IsArchived: {
+      type: Boolean,
+      default: false
+  },
+  IsTrashed: {
+    type: Boolean,
+    default: false
+  }
   },
   {
     timestamps: true
